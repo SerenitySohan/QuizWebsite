@@ -2,18 +2,25 @@ document.addEventListener('DOMContentLoaded', () => {
     const categories = {
       science: [
         { question: 'What is the chemical symbol for water?', answer: 'H2O', difficulty: 'easy' },
+        { question: 'What is the chemical symbol for Chioroform?', answer: 'CHCl3', difficulty: 'easy' },
         { question: 'What planet is known as the Red Planet?', answer: 'Mars', difficulty: 'medium' },
+        { question: 'Largest planet in solar system?', answer: 'Jupiter', difficulty: 'medium' },
         { question: 'What is the speed of light?', answer: '3,00,000 m/s', difficulty: 'hard' },
+        { question: 'Mass of proton?', answer: '1.6*10^-27 kg', difficulty: 'hard' },
       ],
      
       math: [
         {question: '8+13=',answer:'21',difficulty:'easy'},
+        {question: '2+7=',answer:'9',difficulty:'easy'},
         {question: 'X+4=9, Find x?',answer:'5',difficulty:'medium'},
         {question: '2x-y=5, x+y=4 then (x,y)=?',answer:'3,1',difficulty:'hard'},
+        {question: 'Square root of 144?',answer:'12',difficulty:'medium'},
+        {question: 'what is derrivative of 9x-123?',answer:'9',difficulty:'hard'},
       ],
       history: [
         {question: 'What is the birth datr of ch. shivaji Maharaj?',answer:'19 Feb 1630 ',difficulty:'easy'},
         {question: 'Who was the son of Akbar?',answer:'Jahangir',difficulty:'medium'},
+        {question: 'Mahabharat written by ...?',answer:'Vyas Muni',difficulty:'medium'},
         {question: 'Atharvaveda was compiled in which century?',answer:'1100 BCE',difficulty:'hard'},
       ]
     };
