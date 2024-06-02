@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  #search-bar {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  #category-dropdown {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .tab-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    background-color: #e7e7e7;
+    cursor: pointer;
+  }
+  
+  #quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #calculator-container {
+    margin-top: 20px;
+  }
+  
+  #progress-bar {
+    width: 100%;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+  }
+  
+  #progress {
+    height: 20px;
+    background-color: #4caf50;
+    width: 0;
+  }
+
+  #calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  #calc-display {
+    width: 200px;
+    height: 40px;
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  
+  #calc-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    gap: 5px;
+  }
+  
+  #calc-buttons button {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+  }

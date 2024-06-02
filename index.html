@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Quiz Website</h1>
+    <div class="search-container">
+      <input type="text" id="search-bar" placeholder="Search quizzes...">
+      <button id="voice-search">🎤</button> <!-- Placeholder for voice search button -->
+    </div>
+    <select id="category-dropdown">
+      <option value="all">All Categories</option>
+      <option value="science">Science</option>
+      <option value="math">Math</option>
+      <option value="history">History</option>
+      <!-- Add more categories as needed -->
+    </select>
+  </header>
+  <main>
+    <div class="tabs">
+      <button class="tab-button" data-difficulty="easy">Easy</button>
+      <button class="tab-button" data-difficulty="medium">Medium</button>
+      <button class="tab-button" data-difficulty="hard">Hard</button>
+    </div>
+    <div id="quiz-container">
+      <!-- Questions will be dynamically loaded here -->
+    </div>
+    <div id="calculator-container">
+
+    </div>
+    <div id="progress-bar">
+      <div id="progress"></div>
+    </div>
+  </main>
+  <script src="scripts.js"></script>
+</body>
+</html>
